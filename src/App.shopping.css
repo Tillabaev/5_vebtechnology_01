@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6fb;
+  color: #2b2b2b;
+}
+
+.app {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid #c5cbe0;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form input[type="text"] {
+  flex: 2;
+  min-width: 0;
+}
+
+.form input[type="number"] {
+  flex: 1;
+  min-width: 0;
+}
+
+button {
+  background: #3f6df6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f58d4;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e6e9f2;
+}
+
+.item-name {
+  flex: 1;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: #e5484d;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.delete-btn:hover {
+  background: #c93a3f;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+}
+
+.total {
+  margin: 20px 0 0;
+  text-align: right;
+  font-size: 18px;
+}
